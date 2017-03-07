@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    margin-top: 0;
+}
+@font-face {
+	font-family:'back_to_black';
+	src: url('fonts/back_to_black/Back_to_Black_Demo.eot'); 
+	src: local('back_to_black'), url('fonts/back_to_black/Back_to_Black_Demo.ttf') format('truetype');
+}
+header {
+    background-color: #00bcd4;
+    border: double;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    font-family: back_to_black,Geneva,serif;
+}
+header img a:hover {
+    cursor: pointer;
+}
+header img {
+    float: left;
+    width: 170px;
+    height: 86px;
+}
+.f-right {
+    float: right;
+    padding: 20px;
+}
+.clearfix {
+    overflow: auto;
+}
+nav ul {
+    background: rgba(000, 000, 000, 0.5);
+    padding: 20px 0 20px 0;
+    list-style: none;
+    color: white;
+    text-align: center !important;
+    font-size: larger;
+    font-family: back_to_black,Geneva,serif;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 25px 0 25px
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: #c1c1c1
+}
+.video {
+    float: left;
+    padding: 10px;
+    margin: 15px 10px;
+    padding-top: 0px;
+    background: rgba(0,188,212,0.3)
+}
+p {
+    font-size: larger;
+    text-align: justify;
+    margin: 10px 20px;
+    line-height: 1.5;
+}
+blockquote {
+    font-size: larger;
+    line-height: 1.5;
+    text-align: justify;
+}
